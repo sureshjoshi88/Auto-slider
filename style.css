@@ -1,0 +1,37 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.child{
+    height: 50vh;
+    width: 30rem;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    position: absolute;
+    left: 43%;
+    top: 0.7%;
+    border: 3px solid rgba(200, 81, 51, 0.747);
+    transition: all 1s 2s ease-in linear;
+}
+
+.paragph{
+    font-size: 28px;
+    margin-top: 20px;
+    line-height: 60px;
+}
+.author{
+    font-size: 40px;
+    margin-top: 0;
+}
