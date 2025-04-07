@@ -35,3 +35,24 @@
     font-size: 40px;
     margin-top: 0;
 }
+
+@media (max-width:500px) {
+    .child{
+        height: auto;
+        width: 100%;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .img{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        position: absolute;
+        left: 35%;
+        top: 8px;
+        border: 3px solid rgba(200, 81, 51, 0.747);
+        transition: all 1s 2s ease-in linear;
+    }
+}
