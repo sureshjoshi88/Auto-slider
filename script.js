@@ -37,5 +37,5 @@ let hanumanji = [
       }
       setTimeout(() => {
         updated();
-      }, 3000);
+      }, 5000);
     }
